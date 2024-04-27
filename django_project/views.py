@@ -15,3 +15,6 @@ def home(request):
 
   
   return render(request, 'templates/index.html', {'result': result, 'result2': result2})
+
+def shop(request):
+  return render(request, 'templates\index.html')
